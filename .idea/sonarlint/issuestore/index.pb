@@ -73,3 +73,9 @@ Fhystrix-service/src/main/java/com/macro/cloud/service/UserService.java,9\6\969
 Phystrix-dashboard/src/main/java/com/macro/cloud/HystrixDashboardApplication.java,e\8\e853b9a5f5b147268ed1928b5f82e5ca4ace9308
 I
 hystrix-dashboard/pom.xml,9\2\92d7641f2b22ae0479f725d07fac46ffd4f7047b
+|
+Lturbine-service/src/main/java/com/macro/cloud/TurbineServiceApplication.java,2\5\25831413aaf3690fc67bc8f170b05b8389b20a48
+b
+2turbine-service/src/main/resources/application.yml,d\a\da262596b96df3d292fab91adcf797c7681fd881
+G
+turbine-service/pom.xml,a\c\accbd243fd6f499d678f9903884ceb7227936e63
