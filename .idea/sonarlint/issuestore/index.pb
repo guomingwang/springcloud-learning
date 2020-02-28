@@ -79,3 +79,15 @@ b
 2turbine-service/src/main/resources/application.yml,d\a\da262596b96df3d292fab91adcf797c7681fd881
 G
 turbine-service/pom.xml,a\c\accbd243fd6f499d678f9903884ceb7227936e63
+s
+Cfeign-service/src/main/java/com/macro/cloud/config/FeignConfig.java,5\f\5f2e983acb1cb61fe011510e427ab5a2e7fa24fc
+
+Ofeign-service/src/main/java/com/macro/cloud/controller/UserFeignController.java,d\f\dfe475a27482f6c8454cf6449d9a1fd39783bef0
+t
+Dfeign-service/src/main/java/com/macro/cloud/service/UserService.java,d\9\d99e7db5919ab49050bae182402e02c10117376d
+x
+Hfeign-service/src/main/java/com/macro/cloud/FeignServiceApplication.java,f\0\f0d76ed5bd3c7fca843b3f3e9f3f32213e3f9cd1
+`
+0feign-service/src/main/resources/application.yml,c\3\c323611b0fe9df21cbb49c645bf7ef6af0d1731d
+E
+feign-service/pom.xml,6\b\6bbe40fcc5943f14ed530d72c550351cf94eef40

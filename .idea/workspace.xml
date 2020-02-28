@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a122011-15eb-4997-8bad-85ab5e9173c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/feign-service/src/main/java/com/macro/cloud/FeignServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign-service/src/main/java/com/macro/cloud/config/FeignConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign-service/src/main/java/com/macro/cloud/controller/UserFeignController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign-service/src/main/java/com/macro/cloud/domain/CommonResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign-service/src/main/java/com/macro/cloud/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign-service/src/main/java/com/macro/cloud/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign-service/src/main/java/com/macro/cloud/service/impl/UserFallbackService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5a122011-15eb-4997-8bad-85ab5e9173c4" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/erureka-server/target/" />
@@ -270,8 +256,8 @@
       <item itemvalue="Spring Boot.HystrixServiceApplication-replica1" />
       <item itemvalue="Spring Boot.HystrixDashboardApplication" />
       <item itemvalue="Spring Boot.TurbineServiceApplication" />
-      <item itemvalue="Spring Boot.ErurekaServerApplication" />
       <item itemvalue="Spring Boot.FeignServiceApplication" />
+      <item itemvalue="Spring Boot.ErurekaServerApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -300,7 +286,7 @@
       <workItem from="1582871247441" duration="2320000" />
       <workItem from="1582874211884" duration="10000" />
       <workItem from="1582874223682" duration="22000" />
-      <workItem from="1582874247312" duration="1792000" />
+      <workItem from="1582874247312" duration="2075000" />
     </task>
     <task id="LOCAL-00001" summary="[UPD]eureka、ribbon">
       <created>1582857589607</created>
@@ -316,11 +302,18 @@
       <option name="project" value="LOCAL" />
       <updated>1582874186281</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="[UPD]openFeign">
+      <created>1582876189705</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582876189705</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18921000" />
+    <option name="totallyTimeSpent" value="19204000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -347,10 +340,10 @@
       <window_info anchor="bottom" id="SonarLint" order="11" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32827735" />
+      <window_info anchor="bottom" id="Version Control" order="14" visible="true" weight="0.32827735" />
       <window_info anchor="bottom" id="MyBatis Log" order="15" />
       <window_info anchor="bottom" id="Run Dashboard" order="16" weight="0.64463705" />
-      <window_info anchor="bottom" id="Messages" order="17" />
+      <window_info anchor="bottom" id="Messages" order="17" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -374,7 +367,8 @@
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="[UPD]eureka、ribbon" />
     <MESSAGE value="[UPD]hystrix、hystrix dashboard" />
-    <option name="LAST_COMMIT_MESSAGE" value="[UPD]hystrix、hystrix dashboard" />
+    <MESSAGE value="[UPD]openFeign" />
+    <option name="LAST_COMMIT_MESSAGE" value="[UPD]openFeign" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -719,13 +713,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/feign-service/src/main/java/com/macro/cloud/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/feign-service/src/main/java/com/macro/cloud/config/FeignConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -744,6 +731,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feign-service/src/main/java/com/macro/cloud/controller/UserFeignController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feign-service/src/main/java/com/macro/cloud/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
         </state>
       </provider>
     </entry>

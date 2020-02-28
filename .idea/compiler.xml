@@ -7,15 +7,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springcloud-learning" />
-        <module name="erureka-server" />
+        <module name="feign-service" />
         <module name="eureka-security-server" />
         <module name="eureka-client" />
-        <module name="feign-service" />
         <module name="ribbon-service" />
         <module name="hystrix-dashboard" />
+        <module name="erureka-server" />
         <module name="turbine-service" />
-        <module name="user-service" />
         <module name="hystrix-service" />
+        <module name="user-service" />
       </profile>
     </annotationProcessing>
   </component>
