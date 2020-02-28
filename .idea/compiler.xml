@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eureka-client" />
-        <module name="eureka-security-server" />
         <module name="springcloud-learning" />
         <module name="erureka-server" />
+        <module name="eureka-security-server" />
+        <module name="eureka-client" />
+        <module name="ribbon-service" />
+        <module name="user-service" />
       </profile>
     </annotationProcessing>
   </component>
@@ -18,6 +20,8 @@
       <module name="erureka-server" options="-parameters" />
       <module name="eureka-client" options="-parameters" />
       <module name="eureka-security-server" options="-parameters" />
+      <module name="ribbon-service" options="-parameters" />
+      <module name="user-service" options="-parameters" />
     </option>
   </component>
 </project>
